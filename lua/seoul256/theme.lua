@@ -286,6 +286,7 @@ M.treesitter = {
 	TSUnderline = { fg = colors.temp, bg = colors.none, style = "underline" },
 	TSVariable = { fg = colors.temp },
 	TSVariableBuiltin = { fg = colors.temp },
+	["@variable.builtin"] = { fg = colors.temp },
 	TSWarning = {}, -- TODO
 }
 

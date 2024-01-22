@@ -52,10 +52,6 @@ function M.load()
         highlight(group, colors)
     end
 
-	-- loop trough the treesitter table and highlight every member
-	for group, colors in pairs(seoul256.treesitter) do
-		highlight(group, colors)
-	end
 	-- load syntax highlights
 	for group, colors in pairs(seoul256.syntax) do
 		highlight(group, colors)
@@ -68,6 +64,10 @@ function M.load()
 		end
 	end
 
+	-- loop trough the treesitter table and highlight every member
+	for group, colors in pairs(seoul256.treesitter) do
+		highlight(group, colors)
+	end
 
     -- loop trough the lsp table and highlight every member
     for group, colors in pairs(seoul256.lsp) do
