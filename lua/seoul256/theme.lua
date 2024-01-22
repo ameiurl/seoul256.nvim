@@ -45,7 +45,8 @@ M.syntax = {
 	Error = { fg = colors.c252, bg = colors.C52 },
 	Underlined = { fg = colors.c181, bg = colors.none, style = "underline" },
 
-	Special = { fg = colors.c216, bg = colors.c236 },
+	--Special = { fg = colors.c216, bg = colors.c236 },
+	Special = { fg = colors.c216 },
 
 	Ignore = { fg = colors.c240, bg = colors.c237 },
 
@@ -122,10 +123,10 @@ M.editor = {
 	StatusLineTerm = { fg = colors.c95, bg = colors.c187 }, --was missing
 	StatusLineTermNC = { fg = colors.c239, bg = colors.c187 }, --was missing
 
-	TabLineFill = { fg = colors.c239, bg = colors.c251 }, --added bg
-	TablineSel = { fg = colors.c187, bg = colors.c187 },
+	TabLineFill = { fg = colors.c239 },
+	TablineSel = { fg = colors.c187, bg = colors.c23 },
 	Tabline = { fg = colors.c249, bg = colors.c241 },
-	WildMenu = { fg = colors.c95, bg = colors.c95 }, --removed bold ?
+	WildMenu = { fg = colors.c95, bg = colors.c184 }, --removed bold ?
 
 
 	Title = { fg = colors.c181, bg = colors.none, style = "bold" },
