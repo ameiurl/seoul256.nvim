@@ -217,7 +217,8 @@ M.treesitter = {
 	["@text"] = { fg = colors.text },
 	["@text.reference"] = { fg = colors.yellow }, -- FIXME ???
 	["@text.title"] = { fg = colors.paleblue, bg = colors.none, style = "bold" },
-	["@type"] = { fg = colors.purple },
+	-- ["@type"] = { fg = colors.purple },
+	["@type"] = { fg = colors.yellow },
 	["@type.builtin"] = { fg = colors.purple },
 	["@text.uri"] = { fg = colors.link },
 	["@text.underline"] = { fg = colors.fg, bg = colors.none, style = "underline" },
