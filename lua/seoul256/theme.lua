@@ -35,7 +35,7 @@ M.syntax = {
 
 	Operator = { fg = colors.c186 },
 
-	Keyword = { fg = colors.c186 },
+	Keyword = { fg = colors.c168 },
 
 	Exception = { fg = colors.c161 },
 
