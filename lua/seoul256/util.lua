@@ -52,22 +52,22 @@ function M.load()
         highlight(group, colors)
     end
 
-    -- load syntax highlights
-    for group, colors in pairs(seoul256.syntax) do
-        highlight(group, colors)
-    end
+	-- loop trough the treesitter table and highlight every member
+	for group, colors in pairs(seoul256.treesitter) do
+		highlight(group, colors)
+	end
+	-- load syntax highlights
+	for group, colors in pairs(seoul256.syntax) do
+		highlight(group, colors)
+	end
 
-    -- loop trough the plugins table and highlight every member
-    for _, v in pairs(seoul256.plugins) do
-        for group, colors in pairs(v) do
-            highlight(group, colors)
-        end
-    end
+	-- loop trough the plugins table and highlight every member
+	for _, v in pairs(seoul256.plugins) do
+		for group, colors in pairs(v) do
+			highlight(group, colors)
+		end
+	end
 
-    -- loop trough the treesitter table and highlight every member
-    for group, colors in pairs(seoul256.treesitter) do
-        highlight(group, colors)
-    end
 
     -- loop trough the lsp table and highlight every member
     for group, colors in pairs(seoul256.lsp) do
