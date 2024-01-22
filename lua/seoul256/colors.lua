@@ -76,7 +76,7 @@ local colors = {
 	c161 = "#E12672", --Exception Todo -> bg = (dark_bg_2) aka background - 2
 	c168 = "#E17899", --SpellBad [red*]
 	c173 = "#E19972", --Define Macro Include PreCondit ModeMsg MoreMsg [accent]
-	c174 = "#E09B99", --Character diffRemoved [red(beatiful)]
+	c174 = "#E09B99", --Character diffRemoved [red(beatiful)] [pink]
 	c179 = "#DFBC72", --Identifier Question WarningMsg SignColumn [yellow]
 	c181 = "#E0BEBC", --Underlined Title
 	c184 = "#DEDC00",

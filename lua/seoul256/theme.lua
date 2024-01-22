@@ -144,12 +144,12 @@ M.editor = {
 	EndOfBuffer = { fg = colors.disabled },
 	MsgArea = {}, -- TODO
 	MsgSeparator = {}, -- TODO
-	NormalNC = {}, -- TODO
+	NormalNC = { fg = colors.c271 }, -- ADDED MYSELF maybe pink?
 	QuickFixLine = { fg = colors.highlight, bg = colors.white, style = "reverse" },
-	Substitute = {}, -- TODO
-	TermCursor = {}, -- TODO
-	TermCursorNC = {}, -- TODO
-	Whitespace = { fg = colors.c59 }, -- default in original 
+	Substitute = { fg = colors.c174 }, -- ADDED MYSELF 
+	TermCursor = { fg = colors.c108 }, -- ADDED MYSELF 
+	TermCursorNC = {fg = colors.c59 }, -- ADDED MYSELF
+	Whitespace = { fg = colors.c59 }, -- ADDED MYSELF default in original 
 
 	-- GUI only
 	Menu = {},
@@ -169,7 +169,7 @@ M.treesitter = {
 	TSConstMacro = { fg = colors.blue },
 	TSConstant = { fg = colors.yellow },
 	TSConstructor = { fg = colors.purple },
-	TSDanger = {}, -- TODO
+	TSDanger = { fg = colors.c252, bg = colors.c52 }, -- ADDED MYSELF
 	TSEmphasis = { fg = colors.paleblue },
 	TSEnvironment = {}, -- TODO
 	TSEnvironmentName = {}, -- TODO
@@ -187,7 +187,7 @@ M.treesitter = {
 	TSKeywordReturn = {}, -- TODO
 	TSLabel = { fg = colors.red },
 	TSLiteral = { fg = colors.fg },
-	TSMath = {}, -- TODO
+	TSMath = { fg = colors.c252, bg = colors.c10 }, -- ADDED MYSELF
 	TSMethod = { fg = colors.blue },
 	TSNamespace = { fg = colors.yellow },
 	TSNone = {}, -- TODO
@@ -226,7 +226,7 @@ M.treesitter = {
 -- Lsp highlight groups
 -- Type `:h lsp-highlight` for more informations
 M.lsp = {
-	LspCodeLens = {}, -- TODO
+	LspCodeLens = { fg = colors.c108 }, -- ADDED MYSELF
 	LspDiagnosticsDefaultError = { fg = colors.error },
 	LspDiagnosticsDefaultHint = { fg = colors.purple },
 	LspDiagnosticsDefaultInformation = { fg = colors.paleblue },
@@ -307,6 +307,7 @@ M.plugins = {
 		TelescopeSelection = { fg = colors.purple },
 		TelescopeMatching = { fg = colors.cyan },
 		TelescopeNormal = { fg = colors.fg, bg = colors.float },
+		TelescopeBorder = { },
 	},
 
 	NvimTree = {
