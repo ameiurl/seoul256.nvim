@@ -45,7 +45,6 @@ M.syntax = {
 	Error = { fg = colors.c252, bg = colors.C52 },
 	Underlined = { fg = colors.c181, bg = colors.none, style = "underline" },
 
-	--Special = { fg = colors.c216, bg = colors.c236 },
 	Special = { fg = colors.c216 },
 
 	Ignore = { fg = colors.c240, bg = colors.c237 },
