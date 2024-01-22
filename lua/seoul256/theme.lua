@@ -149,7 +149,7 @@ M.editor = {
 	Substitute = {}, -- TODO
 	TermCursor = {}, -- TODO
 	TermCursorNC = {}, -- TODO
-	Whitespace = {}, -- TODO
+	Whitespace = { fg = colors.c59 }, -- default in original 
 
 	-- GUI only
 	Menu = {},
