@@ -128,8 +128,6 @@ M.editor = {
 	WildMenu = { fg = colors.c95, bg = colors.c95 }, --removed bold ?
 
 
-	-- PROGRESS until here
-
 	Title = { fg = colors.c181, bg = colors.none, style = "bold" },
 
 	Question = { fg = colors.c179, bg = colors.none, style = "bold" }, --added bold
@@ -374,10 +372,10 @@ M.plugins = {
 		SneakScope = { bg = colors.selection },
 	},
 
-	IndentBlankline = {
-		IndentBlanklineChar = { fg = colors.indentline },
-		IndentBlanklineContextChar = { fg = colors.indentline },
-	},
+--	IndentBlankline = {
+--		IndentBlanklineChar = { fg = colors.indentline },
+--		IndentBlanklineContextChar = { fg = colors.indentline },
+--	},
 
 	NvimDap = {
 		DapBreakpoint = { fg = colors.red },
