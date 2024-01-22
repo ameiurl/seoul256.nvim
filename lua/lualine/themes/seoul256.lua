@@ -34,7 +34,7 @@ M.inactive = {
 	c = { fg = colors.c187, bg = colors.c95},
 }
 
+return M
 --red: c95
 --yellow: c187
 -- good fg grey: c252
-return M
