@@ -122,6 +122,14 @@ M.editor = {
 	StatusLineTerm = { fg = colors.c95, bg = colors.c187 }, --was missing
 	StatusLineTermNC = { fg = colors.c239, bg = colors.c187 }, --was missing
 
+	TabLineFill = { fg = colors.c239, bg = colors.c251 }, --added bg
+	TablineSel = { fg = colors.c187, bg = colors.c187 },
+	Tabline = { fg = colors.c249, bg = colors.c241 },
+	WildMenu = { fg = colors.c95, bg = colors.c95 }, --removed bold ?
+
+
+	-- PROGRESS until here
+
 	Title = { fg = colors.c181, bg = colors.none, style = "bold" },
 
 	Question = { fg = colors.c179, bg = colors.none, style = "bold" }, --added bold
@@ -141,13 +149,9 @@ M.editor = {
 	NormalNC = {}, -- TODO
 	QuickFixLine = { fg = colors.highlight, bg = colors.white, style = "reverse" },
 	Substitute = {}, -- TODO
-	TabLineFill = { fg = colors.fg },
-	Tabline = { fg = colors.fg },
-	TablineSel = { fg = colors.bg, bg = colors.accent },
 	TermCursor = {}, -- TODO
 	TermCursorNC = {}, -- TODO
 	Whitespace = {}, -- TODO
-	WildMenu = { fg = colors.orange, bg = colors.none, style = "bold" },
 
 	-- GUI only
 	Menu = {},
