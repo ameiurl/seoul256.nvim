@@ -31,7 +31,7 @@ M.command = {
 M.inactive = {
 	a = { fg = colors.c240, bg = colors.c237, gui = "bold" },
 	b = { fg = colors.c240, bg = colors.c237 },
-	c = { fg = colors.c240, bg = colors.c23 },
+	c = { fg = colors.c187, bg = colors.c95},
 }
 
 --red: c95
