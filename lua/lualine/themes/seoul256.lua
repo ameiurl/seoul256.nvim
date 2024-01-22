@@ -4,28 +4,28 @@ local M = {}
 
 M.normal = {
     a = { fg = colors.c237, bg = colors.c173, gui = "bold" },
-    b = { fg = colors.temp, bg = colors.c236 },
+    b = { fg = colors.c95, bg = colors.c236 },
     c = { fg = colors.c252, bg = colors.selection },
 }
 
 M.insert = {
-    a = { fg = colors.c237, bg = colors.c108, gui = "bold" },
-    b = { fg = colors.temp, bg = colors.c236 },
+	a = { fg = colors.c237, bg = colors.c108, gui = "bold" },
+	b = { fg = colors.c95, bg = colors.c236 },
 }
 
 M.visual = {
-    a = { fg = colors.c237, bg = colors.purple, gui = "bold" },
-    b = { fg = colors.temp, bg = colors.c236 },
+	a = { fg = colors.c237, bg = colors.purple, gui = "bold" },
+	b = { fg = colors.c95, bg = colors.c236 },
 }
 
 M.replace = {
-    a = { fg = colors.c237, bg = colors.c174, gui = "bold" },
-    b = { fg = colors.temp, bg = colors.c236 },
+	a = { fg = colors.c237, bg = colors.c174, gui = "bold" },
+	b = { fg = colors.c95, bg = colors.c236 },
 }
 
 M.command = {
     a = { fg = colors.c237, bg = colors.c179, gui = "bold" },
-    b = { fg = colors.temp, bg = colors.c236 },
+    b = { fg = colors.c95, bg = colors.c236 },
 }
 
 M.inactive = {

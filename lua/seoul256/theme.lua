@@ -372,10 +372,10 @@ M.plugins = {
 		SneakScope = { bg = colors.selection },
 	},
 
---	IndentBlankline = {
---		IndentBlanklineChar = { fg = colors.indentline },
---		IndentBlanklineContextChar = { fg = colors.indentline },
---	},
+	IndentBlankline = {
+		IndentBlanklineChar = { fg = colors.indentline },
+		IndentBlanklineContextChar = { fg = colors.indentline },
+	},
 
 	NvimDap = {
 		DapBreakpoint = { fg = colors.red },
