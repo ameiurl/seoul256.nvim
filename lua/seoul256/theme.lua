@@ -157,69 +157,135 @@ M.editor = {
 	Tooltip = {},
 }
 
+-- -- TreeSitter highlight groups
+-- -- Type `:h nvim-treesitter-highlights` for more informations
+-- M.treesitter = {
+-- 	TSAttribute = { fg = colors.yellow },
+-- 	TSBoolean = { fg = colors.orange },
+-- 	TSCharacter = { fg = colors.orange },
+-- 	TSComment = { fg = colors.green },
+-- 	TSConditional = { fg = colors.purple },
+-- 	TSConstBuiltin = { fg = colors.blue },
+-- 	TSConstMacro = { fg = colors.blue },
+-- 	TSConstant = { fg = colors.yellow },
+-- 	TSConstructor = { fg = colors.purple },
+-- 	TSDanger = { fg = colors.c252, bg = colors.c52 }, -- ADDED MYSELF
+-- 	TSEmphasis = { fg = colors.paleblue },
+-- 	TSEnvironment = {}, -- TODO
+-- 	TSEnvironmentName = {}, -- TODO
+-- 	TSError = { fg = colors.error },
+-- 	TSException = { fg = colors.yellow },
+-- 	TSField = { fg = colors.gray },
+-- 	TSFloat = { fg = colors.red },
+-- 	TSFuncBuiltin = { fg = colors.cyan },
+-- 	TSFuncMacro = { fg = colors.blue },
+-- 	TSFunction = { fg = colors.blue },
+-- 	TSInclude = { fg = colors.cyan },
+-- 	TSKeyword = { fg = colors.purple },
+-- 	TSKeywordFunction = { fg = colors.purple },
+-- 	TSKeywordOperator = {}, -- TODO
+-- 	TSKeywordReturn = {}, -- TODO
+-- 	TSLabel = { fg = colors.red },
+-- 	TSLiteral = { fg = colors.fg },
+-- 	TSMath = { fg = colors.c252, bg = colors.c10 }, -- ADDED MYSELF
+-- 	TSMethod = { fg = colors.blue },
+-- 	TSNamespace = { fg = colors.yellow },
+-- 	TSNone = {}, -- TODO
+-- 	TSNote = {}, -- TODO
+-- 	TSNumber = { fg = colors.orange },
+-- 	TSOperator = { fg = colors.cyan },
+-- 	TSParameter = { fg = colors.paleblue },
+-- 	TSParameterReference = { fg = colors.paleblue },
+-- 	TSProperty = { fg = colors.paleblue },
+-- 	TSPunctBracket = { fg = colors.cyan },
+-- 	TSPunctDelimiter = { fg = colors.cyan },
+-- 	TSPunctSpecial = { fg = colors.cyan },
+-- 	TSRepeat = { fg = colors.purple },
+-- 	TSStrike = {}, -- TODO
+-- 	TSString = { fg = colors.string },
+-- 	TSStringEscape = { fg = colors.disabled },
+-- 	TSStringRegex = { fg = colors.blue },
+-- 	TSStringSpecial = {}, -- TODO
+-- 	TSStrong = {}, -- TODO
+-- 	TSSymbol = { fg = colors.yellow },
+-- 	TSTag = { fg = colors.red },
+-- 	TSTagAttribute = {}, -- TODO
+-- 	TSTagDelimiter = { fg = colors.yellow },
+-- 	TSText = { fg = colors.text },
+-- 	TSTextReference = { fg = colors.yellow }, -- FIXME ???
+-- 	TSTitle = { fg = colors.paleblue, bg = colors.none, style = "bold" },
+-- 	TSType = { fg = colors.purple },
+-- 	TSTypeBuiltin = { fg = colors.purple },
+-- 	TSURI = { fg = colors.link },
+-- 	TSUnderline = { fg = colors.fg, bg = colors.none, style = "underline" },
+-- 	TSVariable = { fg = colors.gray },
+-- 	TSVariableBuiltin = { fg = colors.gray },
+-- 	TSWarning = {}, -- TODO
+-- }
+
 -- TreeSitter highlight groups
 -- Type `:h nvim-treesitter-highlights` for more informations
 M.treesitter = {
-	TSAttribute = { fg = colors.yellow },
-	TSBoolean = { fg = colors.orange },
-	TSCharacter = { fg = colors.orange },
-	TSComment = { fg = colors.green },
-	TSConditional = { fg = colors.purple },
-	TSConstBuiltin = { fg = colors.blue },
-	TSConstMacro = { fg = colors.blue },
-	TSConstant = { fg = colors.yellow },
-	TSConstructor = { fg = colors.purple },
+	TSAttribute = { fg = colors.temp },
+	TSBoolean = { fg = colors.temp },
+	TSCharacter = { fg = colors.temp },
+	TSComment = { fg = colors.temp },
+	TSConditional = { fg = colors.temp },
+	TSConstBuiltin = { fg = colors.temp },
+	TSConstMacro = { fg = colors.temp },
+	TSConstant = { fg = colors.temp },
+	TSConstructor = { fg = colors.temp },
 	TSDanger = { fg = colors.c252, bg = colors.c52 }, -- ADDED MYSELF
-	TSEmphasis = { fg = colors.paleblue },
+	TSEmphasis = { fg = colors.temp },
 	TSEnvironment = {}, -- TODO
 	TSEnvironmentName = {}, -- TODO
-	TSError = { fg = colors.error },
-	TSException = { fg = colors.yellow },
-	TSField = { fg = colors.gray },
-	TSFloat = { fg = colors.red },
-	TSFuncBuiltin = { fg = colors.cyan },
-	TSFuncMacro = { fg = colors.blue },
-	TSFunction = { fg = colors.blue },
-	TSInclude = { fg = colors.cyan },
-	TSKeyword = { fg = colors.purple },
-	TSKeywordFunction = { fg = colors.purple },
+	TSError = { fg = colors.temp },
+	TSException = { fg = colors.temp },
+	TSField = { fg = colors.temp },
+	TSFloat = { fg = colors.temp },
+	TSFuncBuiltin = { fg = colors.temp },
+	TSFuncMacro = { fg = colors.temp },
+	TSFunction = { fg = colors.temp },
+	TSInclude = { fg = colors.temp },
+	TSKeyword = { fg = colors.temp },
+	TSKeywordFunction = { fg = colors.temp },
 	TSKeywordOperator = {}, -- TODO
 	TSKeywordReturn = {}, -- TODO
-	TSLabel = { fg = colors.red },
-	TSLiteral = { fg = colors.fg },
+	TSLabel = { fg = colors.temp },
+	TSLiteral = { fg = colors.temp },
 	TSMath = { fg = colors.c252, bg = colors.c10 }, -- ADDED MYSELF
-	TSMethod = { fg = colors.blue },
-	TSNamespace = { fg = colors.yellow },
+	TSMethod = { fg = colors.temp },
+	TSNamespace = { fg = colors.temp },
 	TSNone = {}, -- TODO
 	TSNote = {}, -- TODO
-	TSNumber = { fg = colors.orange },
-	TSOperator = { fg = colors.cyan },
-	TSParameter = { fg = colors.paleblue },
-	TSParameterReference = { fg = colors.paleblue },
-	TSProperty = { fg = colors.paleblue },
-	TSPunctBracket = { fg = colors.cyan },
-	TSPunctDelimiter = { fg = colors.cyan },
-	TSPunctSpecial = { fg = colors.cyan },
-	TSRepeat = { fg = colors.purple },
+	TSNumber = { fg = colors.temp },
+	TSOperator = { fg = colors.temp },
+	TSParameter = { fg = colors.temp },
+	TSParameterReference = { fg = colors.temp },
+	TSProperty = { fg = colors.temp },
+	TSPunctBracket = { fg = colors.temp },
+	TSPunctDelimiter = { fg = colors.temp },
+	TSPunctSpecial = { fg = colors.temp },
+	TSRepeat = { fg = colors.temp },
 	TSStrike = {}, -- TODO
-	TSString = { fg = colors.string },
-	TSStringEscape = { fg = colors.disabled },
-	TSStringRegex = { fg = colors.blue },
+	TSString = { fg = colors.temp },
+	TSStringEscape = { fg = colors.temp },
+	TSStringRegex = { fg = colors.temp },
 	TSStringSpecial = {}, -- TODO
 	TSStrong = {}, -- TODO
-	TSSymbol = { fg = colors.yellow },
-	TSTag = { fg = colors.red },
+	TSSymbol = { fg = colors.temp },
+	TSTag = { fg = colors.temp },
 	TSTagAttribute = {}, -- TODO
-	TSTagDelimiter = { fg = colors.yellow },
-	TSText = { fg = colors.text },
-	TSTextReference = { fg = colors.yellow }, -- FIXME ???
-	TSTitle = { fg = colors.paleblue, bg = colors.none, style = "bold" },
-	TSType = { fg = colors.purple },
-	TSTypeBuiltin = { fg = colors.purple },
-	TSURI = { fg = colors.link },
-	TSUnderline = { fg = colors.fg, bg = colors.none, style = "underline" },
-	TSVariable = { fg = colors.gray },
-	TSVariableBuiltin = { fg = colors.gray },
+	TSTagDelimiter = { fg = colors.temp },
+	TSText = { fg = colors.temp },
+	TSTextReference = { fg = colors.temp }, -- FIXME ???
+	TSTitle = { fg = colors.temp, bg = colors.none, style = "bold" },
+	TSType = { fg = colors.temp },
+	TSTypeBuiltin = { fg = colors.temp },
+	TSURI = { fg = colors.temp },
+	TSUnderline = { fg = colors.temp, bg = colors.none, style = "underline" },
+	TSVariable = { fg = colors.temp },
+	TSVariableBuiltin = { fg = colors.temp },
 	TSWarning = {}, -- TODO
 }
 
