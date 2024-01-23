@@ -8,7 +8,7 @@ local colors = {
 	paleblue = "#c78a69",
 	pink = "#d0a39f",
 	purple = "#c66d86",
-	red = "#a07474",
+	red = "#a07474", --168 <- light but 95 is THE red
 	white = "#dfe0e0",
 	yellow = "#c3a769",
 
@@ -74,7 +74,7 @@ local colors = {
 	c152 = "#BCDEDE",
 	c153 = "#BCE0FF", --SpellLocal [cyan*]
 	c161 = "#E12672", --Exception Todo -> bg = (dark_bg_2) aka background - 2
-	c168 = "#E17899", --SpellBad [red*]
+	c168 = "#E17899", --SpellBad [red*] gute red
 	c173 = "#E19972", --Define Macro Include PreCondit ModeMsg MoreMsg [accent]
 	c174 = "#E09B99", --Character diffRemoved [red(beatiful)] [pink]
 	c179 = "#DFBC72", --Identifier Question WarningMsg SignColumn [yellow]

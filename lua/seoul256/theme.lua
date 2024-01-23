@@ -73,7 +73,7 @@ M.editor = {
 	ColorColumn = { fg = colors.none, bg = colors.c236 }, --was color.active TODO delete this note
 
 	CursorLine = { fg = colors.none, bg = colors.c236 },
-	CursorLineNr = { fg = colors.c131, bg = colors.c236 }, --TODO does this look good?
+	CursorLineNr = { fg = colors.temp, bg = colors.c236 }, --TODO does this look good?
 	CursorColumn = { fg = colors.none, bg = colors.c236 },
 	NormalFloat = { fg = colors.none, bg = colors.c236 }, --TODO does this look good?
 
