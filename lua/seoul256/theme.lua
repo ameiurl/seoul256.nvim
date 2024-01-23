@@ -63,7 +63,7 @@ M.syntax = {
 M.editor = {
 	Normal = { fg = colors.c252, bg = colors.c237 },
 
-	LineNr = { fg = colors.c101, bg = colors.c238 }, --bg added
+	LineNr = { fg = colors.c101, bg = colors.temp }, --bg added
 	Visual = { fg = colors.none, bg = colors.c23 },
 	VisualNOS = { fg = colors.none, bg = colors.c23 },
 
@@ -206,7 +206,7 @@ M.treesitter = {
 	["@repeat"] = { fg = colors.purple },
 	--TSStrike = {}, -- TODO
 	["@string"] = { fg = colors.string },
-	["@string.escape"] = { fg = colors.disabled },
+	["@string.escape"] = { fg = colors.disabled }, -- UNLESBAR OMG
 	["@string.regexp"] = { fg = colors.blue },
 	["@string.special.symbol"] = {}, -- TODO
 	--TSStrong = {}, -- TODO
