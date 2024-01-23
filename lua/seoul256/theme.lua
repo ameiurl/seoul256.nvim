@@ -63,7 +63,7 @@ M.syntax = {
 M.editor = {
 	Normal = { fg = colors.c252, bg = colors.c237 },
 
-	LineNr = { fg = colors.c101, bg = colors.temp }, --bg added
+	LineNr = { fg = colors.c101, bg = colors.c238 }, --bg added
 	Visual = { fg = colors.none, bg = colors.c23 },
 	VisualNOS = { fg = colors.none, bg = colors.c23 },
 
