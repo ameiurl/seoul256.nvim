@@ -72,10 +72,10 @@ M.editor = {
 
 	ColorColumn = { fg = colors.none, bg = colors.c236 }, --was color.active TODO delete this note
 
-	CursorLine = { fg = colors.temp, bg = colors.temp },
-	CursorLineNr = { fg = colors.c131, bg = colors.c236 }, --TODO does this look good?
-	CursorColumn = { fg = colors.none, bg = colors.c236 },
-	NormalFloat = { fg = colors.purple, bg = colors.purple }, --TODO does this look good?
+	CursorLine = { fg = colors.none, bg = colors.temp },
+	CursorLineNr = { fg = colors.temp, bg = colors.c236 }, --TODO does this look good?
+	CursorColumn = { fg = colors.none, bg = colors.temp },
+	NormalFloat = { fg = colors.none, bg = colors.c236 }, --TODO does this look good?
 
 	Directory = { fg = colors.c187, bg = colors.none },
 
@@ -139,7 +139,7 @@ M.editor = {
 	Conceal = { fg = colors.c254 },
 
 	Cursor = { fg = colors.cursor, bg = colors.none, style = "reverse" },
-	lCursor = {}, -- TODO
+	--lCursor = {}, -- TODO
 	CursorIM = { fg = colors.cursor, bg = colors.none, style = "reverse" },
 	EndOfBuffer = { fg = colors.disabled },
 	MsgArea = {}, -- TODO
@@ -200,7 +200,7 @@ M.treesitter = {
 	["@parameter"] = { fg = colors.paleblue },
 	["@parameter.reference"] = { fg = colors.paleblue },
 	["@property"] = { fg = colors.paleblue },
-	["@punctuation.bracket"]= { fg = colors.cyan },
+	["@punctuation.bracket"] = { fg = colors.cyan },
 	["@punctuation.delimiter"] = { fg = colors.cyan },
 	["@punctuation.special"] = { fg = colors.cyan },
 	["@repeat"] = { fg = colors.purple },
@@ -311,7 +311,7 @@ M.plugins = {
 		TelescopeSelection = { fg = colors.purple },
 		TelescopeMatching = { fg = colors.cyan },
 		TelescopeNormal = { fg = colors.fg, bg = colors.float },
-		TelescopeBorder = { },
+		TelescopeBorder = {},
 	},
 
 	NvimTree = {
@@ -437,8 +437,8 @@ if vim.g.seoul256_borders == true then
 	M.editor.VertSplit = { fg = colors.border }
 end
 
-if vim.g.seoul256_hl_current_line == true then
-	M.editor.CursorLine = { fg = colors.none, bg = colors.active }
-end
+--if vim.g.seoul256_hl_current_line == true then
+--	M.editor.CursorLine = { fg = colors.none, bg = colors.active }
+--end
 
 return M
