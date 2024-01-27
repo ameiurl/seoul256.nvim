@@ -7,8 +7,8 @@ local colors = {
 	orange = "#67a9aa",
 	paleblue = "#c78a69",
 	pink = "#d0a39f",
-	purple = "#c66d86",
-	red = "#a07474", --168 <- light but 95 is THE red
+	purple = "#c66d86", --168
+	red = "#a07474", --95
 	white = "#dfe0e0",
 	yellow = "#c3a769",
 
