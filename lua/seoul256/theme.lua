@@ -279,12 +279,12 @@ M.plugins = {
 		MiniStatuslineFileinfo = { fg = colors.c252, bg = colors.bg_highlight },
 		MiniStatuslineFilename = { fg = colors.c252, bg = colors.fg_gutter },
 		MiniStatuslineInactive = { fg = colors.blue, bg = colors.bg_statusline },
-		MiniStatuslineModeCommand = { fg = colors.c237, bg = colors.c179, bold = true }, --yellow
-		MiniStatuslineModeInsert = { fg = colors.c237, bg = colors.c108, bold = true }, --green
-		MiniStatuslineModeNormal = { fg = colors.c237, bg = colors.c173, bold = true }, --orange
-		MiniStatuslineModeOther = { fg = colors.c237, bg = colors.temp, bold = true },
-		MiniStatuslineModeReplace = { fg = colors.c237, bg = colors.c174, bold = true }, --light red
-		MiniStatuslineModeVisual = { fg = colors.c237, bg = colors.c23, bold = true }, --was: red is: visual-(blue)
+		MiniStatuslineModeCommand = { fg = colors.c187, bg = colors.c179, bold = true }, --yellow
+		MiniStatuslineModeInsert = { fg = colors.c187, bg = colors.c108, bold = true }, --green
+		MiniStatuslineModeNormal = { fg = colors.c187, bg = colors.c173, bold = true }, --orange
+		MiniStatuslineModeOther = { fg = colors.c187, bg = colors.temp, bold = true },
+		MiniStatuslineModeReplace = { fg = colors.c187, bg = colors.c174, bold = true }, --light red
+		MiniStatuslineModeVisual = { fg = colors.c187, bg = colors.c23, bold = true }, --was: red is: visual-(blue)
 	},
 
 	Neogit = {
