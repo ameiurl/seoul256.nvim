@@ -277,7 +277,7 @@ M.plugins = {
 	MiniStatusLine = {
 		MiniStatuslineDevinfo = { fg = colors.c96, bg = colors.c187},
 		MiniStatuslineFileinfo = { fg = colors.c95, bg = colors.c187 },
-		MiniStatuslineFilename = { fg = colors.c187, bg = colors.95, bold = true },
+		MiniStatuslineFilename = { fg = colors.c187, bg = colors.c95, bold = true },
 		MiniStatuslineInactive = { fg = colors.c240, bg = colors.c237 },
 		MiniStatuslineModeCommand = { fg = colors.c237, bg = colors.c179, bold = true }, --yellow
 		MiniStatuslineModeInsert = { fg = colors.c237, bg = colors.c108, bold = true }, --green
