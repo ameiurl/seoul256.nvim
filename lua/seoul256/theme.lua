@@ -284,7 +284,7 @@ M.plugins = {
 		MiniStatuslineModeNormal = { fg = colors.c237, bg = colors.c173, bold = true }, --orange
 		MiniStatuslineModeOther = { fg = colors.c237, bg = colors.c240, bold = true },
 		MiniStatuslineModeReplace = { fg = colors.c237, bg = colors.c174, bold = true }, --light red
-		MiniStatuslineModeVisual = { fg = colors.c237, bg = colors.c23, bold = true }, --was: red is: visual-(blue)
+		MiniStatuslineModeVisual = { fg = colors.c252, bg = colors.c23, bold = true }, --was: red is: visual-(blue)
 	},
 
 	Neogit = {
