@@ -127,7 +127,6 @@ M.editor = {
 	Tabline = { fg = colors.c249, bg = colors.c241 },
 	WildMenu = { fg = colors.c95, bg = colors.c184 }, --removed bold ?
 
-
 	Title = { fg = colors.c181, bg = colors.none, style = "bold" },
 
 	Question = { fg = colors.c179, bg = colors.none, style = "bold" }, --added bold
@@ -146,10 +145,10 @@ M.editor = {
 	MsgSeparator = {}, -- TODO
 	NormalNC = { fg = colors.c271 }, -- ADDED MYSELF maybe pink?
 	QuickFixLine = { fg = colors.highlight, bg = colors.white, style = "reverse" },
-	Substitute = { fg = colors.c174 }, -- ADDED MYSELF 
-	TermCursor = { fg = colors.c108 }, -- ADDED MYSELF 
-	TermCursorNC = {fg = colors.c59 }, -- ADDED MYSELF
-	Whitespace = { fg = colors.c59 }, -- ADDED MYSELF default in original 
+	Substitute = { fg = colors.c174 }, -- ADDED MYSELF
+	TermCursor = { fg = colors.c108 }, -- ADDED MYSELF
+	TermCursorNC = { fg = colors.c59 }, -- ADDED MYSELF
+	Whitespace = { fg = colors.c59 }, -- ADDED MYSELF default in original
 
 	-- GUI only
 	Menu = {},
@@ -273,6 +272,19 @@ M.plugins = {
 		diffFile = { fg = colors.blue },
 		diffLine = { fg = colors.green },
 		diffIndexLine = { fg = colors.purple },
+	},
+
+	MiniStatusLine = {
+		MiniStatuslineDevinfo = { fg = colors.c252, bg = colors.bg_highlight },
+		MiniStatuslineFileinfo = { fg = colors.c252, bg = colors.bg_highlight },
+		MiniStatuslineFilename = { fg = colors.c252, bg = colors.fg_gutter },
+		MiniStatuslineInactive = { fg = colors.blue, bg = colors.bg_statusline },
+		MiniStatuslineModeCommand = { fg = colors.c237, bg = colors.c179, bold = true }, --yellow
+		MiniStatuslineModeInsert = { fg = colors.c237, bg = colors.c108, bold = true }, --green
+		MiniStatuslineModeNormal = { fg = colors.c237, bg = colors.c173, bold = true }, --orange
+		MiniStatuslineModeOther = { fg = colors.c237, bg = colors.temp, bold = true },
+		MiniStatuslineModeReplace = { fg = colors.c237, bg = colors.c174, bold = true }, --light red
+		MiniStatuslineModeVisual = { fg = colors.c237, bg = colors.c23, bold = true }, --was: red is: visual-(blue)
 	},
 
 	Neogit = {
