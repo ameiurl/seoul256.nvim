@@ -351,8 +351,10 @@ M.plugins = {
 		WhichKeyGroup = { fg = colors.text },
 		WhichKeyDesc = { fg = colors.blue, style = "italic" },
 		WhichKeySeperator = { fg = colors.fg },
-		WhichKeyFloating = { bg = colors.float },
-		WhichKeyFloat = { bg = colors.float },
+		-- WhichKeyFloating = { bg = colors.float },
+		WhichKeyFloating = { bg = colors.temp },
+		-- WhichKeyFloat = { bg = colors.float },
+		WhichKeyFloat = { bg = colors.c161 },
 	},
 
 	LspSaga = {
