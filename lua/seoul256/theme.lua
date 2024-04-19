@@ -349,7 +349,7 @@ M.plugins = {
 	WhichKey = {
 		WhichKey = { fg = colors.accent, style = "bold" },
 		-- WhichKeyGroup = { fg = colors.text },
-		WhichKeyGroup = { fg = colors.c237 },
+		WhichKeyGroup = { fg = colors.c252 },
 		WhichKeyDesc = { fg = colors.blue, style = "italic" },
 		WhichKeySeperator = { fg = colors.fg },
 		-- WhichKeyFloating = { bg = colors.float },
