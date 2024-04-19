@@ -354,7 +354,7 @@ M.plugins = {
 		-- WhichKeyFloating = { bg = colors.float },
 		WhichKeyFloating = { bg = colors.temp },
 		-- WhichKeyFloat = { bg = colors.float },
-		WhichKeyFloat = { bg = colors.c161 },
+		WhichKeyFloat = { bg = colors.c238 },
 	},
 
 	LspSaga = {
