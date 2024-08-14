@@ -6,13 +6,14 @@ local M = {}
 -- Type `:h syntax` for more informations
 M.syntax = {
 	Comment = { fg = colors.c65 },
+	Comment = { fg = colors.comment },
 	Number = { fg = colors.c222 },
 	Float = { fg = colors.c222 },
 	Boolean = { fg = colors.c103 },
 	String = { fg = colors.c109, bg = colors.none, style = "italic" }, --TODO original: not italic
 	Constant = { fg = colors.c73 },
 	Character = { fg = colors.c174 },
-	Delimiter = { fg = colors.c137 },
+	Delimiter = { fg = colors.white },
 	StringDelimiter = { fg = colors.c137 }, --added, do we need it?
 	Statement = { fg = colors.c108 }, --TODO original: bold
 
@@ -61,9 +62,9 @@ M.syntax = {
 -- Editor highlight groups
 -- Type `:h highlight-groups` for more informations
 M.editor = {
-	Normal = { fg = colors.c252, bg = colors.c237 },
+	Normal = { fg = colors.c252, bg = colors.c236 },
 
-	LineNr = { fg = colors.c101, bg = colors.c238 }, --bg added
+	LineNr = { fg = colors.c101, bg = colors.c237 }, --bg added
 	Visual = { fg = colors.none, bg = colors.c23 },
 	VisualNOS = { fg = colors.none, bg = colors.c23 },
 
@@ -72,7 +73,7 @@ M.editor = {
 
 	ColorColumn = { fg = colors.none, bg = colors.c236 }, --was color.active TODO delete this note
 
-	CursorLine = { fg = colors.none, bg = colors.c236 },
+	CursorLine = { fg = colors.none, bg = colors.c237 },
 	CursorLineNr = { fg = colors.c131, bg = colors.c236 }, --TODO does this look good?
 	CursorColumn = { fg = colors.none, bg = colors.c236 },
 	NormalFloat = { fg = colors.none, bg = colors.c236 }, --TODO does this look good?
@@ -101,7 +102,7 @@ M.editor = {
 
 	MoreMsg = { fg = colors.c173, bg = colors.none, style = "bold" }, --TODO does look good? bold?
 
-	Pmenu = { fg = colors.c252, bg = colors.c236 },
+	Pmenu = { fg = colors.c252, bg = colors.c237 },
 	PmenuSel = { fg = colors.c252, bg = colors.c95 },
 	PmenuSbar = { fg = colors.none, bg = colors.c65 },
 	PmenuThumb = { fg = colors.none, bg = colors.c23 },
@@ -133,7 +134,7 @@ M.editor = {
 
 	WarningMsg = { fg = colors.c179 },
 
-	SignColumn = { fg = colors.c173, bg = colors.c237 },
+	SignColumn = { fg = colors.c173, bg = colors.c236 },
 
 	Conceal = { fg = colors.c254 },
 
@@ -322,7 +323,7 @@ M.plugins = {
 		TelescopeSelectionCaret = { fg = colors.purple },
 		TelescopeSelection = { fg = colors.purple },
 		TelescopeMatching = { fg = colors.cyan },
-		TelescopeNormal = { fg = colors.fg, bg = colors.float },
+		TelescopeNormal = { fg = colors.fg, bg = c237 },
 		TelescopeBorder = {},
 	},
 

@@ -27,6 +27,7 @@ local colors = {
 	selection = "#347474",
 	string = "#93b2b2",
 	text = "#565656",
+	comment = "#626262",
 
 	error = "#a07474",
 	link = "#67a9aa",
