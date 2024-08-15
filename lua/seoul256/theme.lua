@@ -347,6 +347,26 @@ M.plugins = {
 		LspDiagnosticsHint = { fg = colors.purple },
 	},
 
+	NeoTree = {
+		NeoTreeNormal = { fg = colors.fg, bg = colors.sidebar },
+		NeoTreeRootFolder = { fg = colors.blue, style = "bold" },
+		NeoTreeGitDirty = { fg = colors.yellow },
+		NeoTreeGitNew = { fg = colors.green },
+		NeoTreeImageFile = { fg = colors.yellow },
+		NeoTreeExecFile = { fg = colors.green },
+		NeoTreeSpecialFile = { fg = colors.purple, style = "underline" },
+		NeoTreeFolderName = { fg = colors.paleblue },
+		NeoTreeEmptyFolderName = { fg = colors.disabled },
+		NeoTreeFolderIcon = { fg = colors.accent },
+		NeoTreeIndentMarker = { fg = colors.disabled },
+
+		-- TODO not sure this goes here
+		LspDiagnosticsError = { fg = colors.error },
+		LspDiagnosticsWarning = { fg = colors.yellow },
+		LspDiagnosticsInformation = { fg = colors.paleblue },
+		LspDiagnosticsHint = { fg = colors.purple },
+	},
+
 	WhichKey = {
 		WhichKey = { fg = colors.accent, style = "bold" },
 		-- WhichKeyGroup = { fg = colors.text },

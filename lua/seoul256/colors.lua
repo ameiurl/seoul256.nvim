@@ -27,7 +27,7 @@ local colors = {
 	selection = "#347474",
 	string = "#93b2b2",
 	text = "#565656",
-	comment = "#626262",
+	comment = "#757575",
 
 	error = "#a07474",
 	link = "#67a9aa",
@@ -117,12 +117,12 @@ local colors = {
 
 -- Enable contrast sidebars, cfloating windows and popup menus
 if vim.g.seoul256_contrast == false then
-	colors.sidebar = colors.c237
-	colors.float = colors.c237
+	colors.sidebar = colors.c236
+	colors.float = colors.c236
 else
 	--c238 is a guess for a lighter color idk what this even is tbh
-	colors.sidebar = colors.c238
-	colors.float = colors.c238
+	colors.sidebar = colors.c237
+	colors.float = colors.c237
 end
 
 return colors
