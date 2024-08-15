@@ -321,7 +321,7 @@ M.plugins = {
 		TelescopeResultsBorder = { fg = colors.purple },
 		TelescopePreviewBorder = { fg = colors.green },
 		TelescopeSelectionCaret = { fg = colors.purple },
-		TelescopeSelection = { fg = colors.purple },
+		-- TelescopeSelection = { fg = colors.purple },
 		TelescopeMatching = { fg = colors.cyan },
 		TelescopeNormal = { fg = colors.fg, bg = c237 },
 		TelescopeBorder = {},
@@ -358,7 +358,8 @@ M.plugins = {
 		NeoTreeFolderName = { fg = colors.paleblue },
 		NeoTreeEmptyFolderName = { fg = colors.disabled },
 		NeoTreeFolderIcon = { fg = colors.accent },
-		NeoTreeIndentMarker = { fg = colors.disabled },
+		-- NeoTreeIndentMarker = { fg = colors.disabled },
+        NeoTreeCursorLine = { bg = colors.c238},
 
 		-- TODO not sure this goes here
 		LspDiagnosticsError = { fg = colors.error },
