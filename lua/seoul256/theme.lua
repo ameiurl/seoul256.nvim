@@ -73,7 +73,7 @@ M.editor = {
 
 	ColorColumn = { fg = colors.none, bg = colors.c236 }, --was color.active TODO delete this note
 
-	CursorLine = { fg = colors.none, bg = colors.c237 },
+	CursorLine = { fg = colors.none, bg = colors.c236 },
 	CursorLineNr = { fg = colors.c131, bg = colors.c236 }, --TODO does this look good?
 	CursorColumn = { fg = colors.none, bg = colors.c236 },
 	NormalFloat = { fg = colors.none, bg = colors.c236 }, --TODO does this look good?
@@ -474,7 +474,7 @@ if vim.g.seoul256_borders == true then
 end
 
 if vim.g.seoul256_hl_current_line == true then
-	M.editor.CursorLine = { fg = colors.none, bg = colors.active }
+	M.editor.CursorLine = { fg = colors.none, bg = colors.c237 }
 end
 
 return M
