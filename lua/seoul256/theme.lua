@@ -442,7 +442,7 @@ if vim.g.seoul256_disable_background == true then
 end
 
 if vim.g.seoul256_italic_comments == true then
-	M.syntax.Comment = { fg = colors.green, bg = colors.none, style = "italic" }
+	M.syntax.Comment = { fg = colors.comment, bg = colors.none, style = "italic" }
 	M.treesitter.TSComment = { fg = colors.green, bg = colors.none, style = "italic" }
 end
 
